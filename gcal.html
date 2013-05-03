@@ -1,0 +1,8 @@
+<h1 data-bind="title"></h1>
+<ul id="events">
+  <li data-foreach-entry="entries">
+  	<span class="entry-title" data-bind="entry.title"></span>
+  	<span class="entry-when" data-foreach-when="entry.when" data-bind="' - ' | prepend when.startTime | append when.endTime"></span>
+  </li>
+</ul>
+<p class="updated-at" data-bind="updatedAtMessage"></p>

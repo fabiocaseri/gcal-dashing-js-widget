@@ -1,0 +1,1 @@
+class Dashing.Gcal extends Dashing.Widget

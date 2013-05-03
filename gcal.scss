@@ -1,0 +1,29 @@
+$background-color: #ff9618;
+
+.widget-gcal {
+  background-color: $background-color;
+  vertical-align: top !important;
+
+  ul#events {
+    padding-left: 10px;
+    text-align: left;
+
+    .entry-title {
+      display: block;
+    }
+    .entry-when {
+      color: darken(#ffffff, 10%);
+      display: block;
+      font-size: 14px;
+      text-align: right;
+    }
+  }
+
+  .updated-at {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 10px;
+    color: lighten($background-color, 25%);
+  }
+
+}
